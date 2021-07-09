@@ -1,7 +1,19 @@
 const App = () => {
   return (
     <div>
-      Its working
+
+      <header>
+        {/* To be filled later */}
+      </header>
+
+      <main>
+        This is working
+      </main>
+
+      <footer>
+        {/* To be filled later */}
+      </footer>
+
     </div>
   );
 }
