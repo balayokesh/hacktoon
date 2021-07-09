@@ -1,21 +1,32 @@
-const App = () => {
-  return (
-    <div>
+import React, { useState} from 'react';
 
-      <header>
+
+const App = () => {
+
+
+    return (
+        <>
+
+      <header className="header">
         {/* To be filled later */}
+        <h3 className="logo">Mickey-Hacktoon</h3>
+        <div className="participants">
+            <h2>Monesh Goyal</h2>
+            <h2>Bala Yokesh</h2>
+            <h2>Cheng Yang</h2>
+        </div>
       </header>
 
-      <main>
-        This is working
+      <main className="main_div">
+        <h1>Hello</h1>
       </main>
 
-      <footer>
+      <footer className="footer">
         {/* To be filled later */}
       </footer>
 
-    </div>
-  );
+        </>
+    )
 }
 
 export default App;
