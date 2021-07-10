@@ -9,7 +9,7 @@ import logo from './assets/images/logo.png'
 
 // Import custom components
 import CardComponent from './Components/CardComponent.jsx';
-import Cards from './Cards';
+import Cards from './Cards.jsx';
 
 const App = () => {
 	const classes = useStyles();
@@ -45,10 +45,33 @@ const App = () => {
 					</Container>
 				</div>
 
-				<div className="participants">
-					<h2>Monesh Goyal</h2>
-					<h2>Bala Yokesh</h2>
-					<h2>Cheng Yang</h2>
+				<br />
+
+				<div>
+					<Container>
+						<Typography variant='h2'>
+							About Mickey Mouse:
+						</Typography>
+					</Container>
+				</div>
+
+				<br />
+
+				<div>
+					<Container>
+						<Typography variant='h2'>
+							Our team - Mickey
+						</Typography>
+						<Typography variant='subtitle1'>
+							Monesh Goyal
+						</Typography>
+						<Typography variant='subtitle1'>
+							Bala Yokesh Mani
+						</Typography>
+						<Typography variant='subtitle1'>
+							Cheng Yang
+						</Typography>
+					</Container>
 				</div>
 
 				<div>
