@@ -18,7 +18,7 @@ const App = () => {
       </header>
 
       <main className="main_div">
-        <h1>Hello</h1>
+        <h1>Rule:</h1>
       </main>
 
       <footer className="footer">
