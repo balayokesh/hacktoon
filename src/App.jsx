@@ -1,4 +1,5 @@
 import React, { useState} from 'react';
+import Cards from './Cards';
 
 const App = () => {
     return (
@@ -23,8 +24,10 @@ const App = () => {
 				<h2>On each turn, a player turns over any two cards (one at a time) and keeps them and gain one point if the cards match</h2>
 
 				<h2>When a player turns over two cards that do not match, the game will be over.</h2>
-				
+
 				<h2>The trick is to remember which cards are where.</h2>
+
+				<Cards />
 				
 			</main>
 
