@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import "./assets/styles/cardStyle.css"
 
 const url = "https://pokeres.bastionbot.org/images/pokemon";
 
