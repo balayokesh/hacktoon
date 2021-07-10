@@ -9,7 +9,7 @@ import Game from './Game.jsx'
 
 const Routing = () => {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Route path="/" exact component={App} />
         <Route path="/game" component={Game} />
       </BrowserRouter>
