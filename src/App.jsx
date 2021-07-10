@@ -13,6 +13,7 @@ import ArrowDropDownCircleIcon from '@material-ui/icons/ArrowDropDownCircle';
 import logo from './assets/images/logo.png';
 import backgroundImage from './assets/images/backgroundImage.jpg';
 import BalaYokesh from './assets/images/balayokesh.jpg';
+import MoneshGoyal from './assets/images/moneshgoyal.jpg';
 import defaultProfilePicture from './assets/images/defaultProfilePicture.png';
 
 // Import custom components
@@ -90,7 +91,7 @@ const App = () => {
 							name='Monesh Goyal'
 							github='https://github.com/2201monesh'
 							linkedin='https://www.linkedin.com/in/monesh-goyal-2b1325200/'
-							image={defaultProfilePicture}
+							image={MoneshGoyal}
 						/>
 						<MemberCard 
 							name='Bala Yokesh Mani'
