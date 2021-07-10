@@ -88,8 +88,8 @@ const App = () => {
 					<Grid container spacing={4}>
 						<MemberCard 
 							name='Monesh Goyal'
-							github=''
-							linkedin=''
+							github='https://github.com/2201monesh'
+							linkedin='https://www.linkedin.com/in/monesh-goyal-2b1325200/'
 							image={defaultProfilePicture}
 						/>
 						<MemberCard 
