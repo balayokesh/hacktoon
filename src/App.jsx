@@ -13,7 +13,6 @@ import ArrowDropDownCircleIcon from '@material-ui/icons/ArrowDropDownCircle';
 import logo from './assets/images/logo.png';
 import backgroundImage from './assets/images/backgroundImage.jpg';
 import BalaYokesh from './assets/images/balayokesh.jpg';
-import MoneshGoyal from './assets/images/moneshgoyal.jpg';
 import defaultProfilePicture from './assets/images/defaultProfilePicture.png';
 
 // Import custom components
@@ -77,8 +76,8 @@ const App = () => {
 				</div>
 
 				<div className={classes.Div} style={{background: `url(https://www.hdwallpaper.nu/wp-content/uploads/2017/03/mickey_mouse-13-768x480.jpg)`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}}>
-					<Typography variant='h2'>
-						About Mickey Mouse:
+					<Typography variant='h2' align='center' style={{marginTop: '5%', padding: '2%', background: 'white', borderRadius: '10px'}}> 
+						All Our dreams can come true, If we have the courage to pursue them
 					</Typography>
 				</div>				
 
@@ -91,7 +90,7 @@ const App = () => {
 							name='Monesh Goyal'
 							github='https://github.com/2201monesh'
 							linkedin='https://www.linkedin.com/in/monesh-goyal-2b1325200/'
-							image={MoneshGoyal}
+							image={defaultProfilePicture}
 						/>
 						<MemberCard 
 							name='Bala Yokesh Mani'
@@ -109,8 +108,10 @@ const App = () => {
 				</Container>
 			</main>
 
-			<footer className="footer">
-				{/* To be filled later */}
+			<footer style={{textAlign: 'center', background: 'black'}}>
+				<Typography variant='subtitle1' style={{color: 'white', padding: '1%'}}>
+					Made with ❤️ by team Mickey Hacks
+				</Typography>
 			</footer>
         </div>
     );

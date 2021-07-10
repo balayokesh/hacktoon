@@ -1,6 +1,5 @@
 // Import npm packages
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 // Import Material UI components
 import { Card, CardContent, CardMedia, CardActions, Button, Typography, Grid } from '@material-ui/core';
@@ -21,7 +20,7 @@ const MemberCard = (props) => {
                 <CardContent>
                     {props.name}
                 </CardContent>
-                <CardActions>
+                <CardActions style={{display: 'flex', justifyContent: 'center'}}>
                     <a href={props.github} target='_blank'>
                         <GitHubIcon />
                     </a>
