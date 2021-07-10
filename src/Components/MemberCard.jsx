@@ -1,5 +1,6 @@
 // Import npm packages
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 // Import Material UI components
 import { Card, CardContent, CardMedia, CardActions, Button, Typography, Grid } from '@material-ui/core';
@@ -21,8 +22,12 @@ const MemberCard = (props) => {
                     {props.name}
                 </CardContent>
                 <CardActions>
-                    <GitHubIcon onclick={() => {window.location.href=`${props.github}`}} />
-                    <LinkedInIcon />
+                    <a href={props.github} target='_blank'>
+                        <GitHubIcon />
+                    </a>
+                    <a href={props.linkedin} target='_blank'>
+                        <LinkedInIcon />
+                    </a>
                 </CardActions>
             </Card>
         </Grid>
