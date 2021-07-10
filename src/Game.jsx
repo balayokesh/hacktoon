@@ -50,6 +50,8 @@ const Game = () => {
 					<h1>On each turn, a player turns over any two cards (one at a time) and keeps them and gain one point if the cards match</h1>
 					<h1>When a player turns over two cards that do not match, the game will be over.</h1>
 					<h1>The trick is to remember which cards are where.</h1>
+
+          <h1>Click on the Cards - </h1>
 					
 				
 					
