@@ -12,9 +12,12 @@ import ArrowDropDownCircleIcon from '@material-ui/icons/ArrowDropDownCircle';
 // Import assets
 import logo from './assets/images/logo.png';
 import backgroundImage from './assets/images/backgroundImage.jpg';
+import BalaYokesh from './assets/images/balayokesh.jpg';
+import defaultProfilePicture from './assets/images/defaultProfilePicture.png';
 
 // Import custom components
 import CardComponent from './Components/CardComponent.jsx';
+import MemberCard from './Components/MemberCard.jsx';
 
 const App = () => {
 	const classes = useStyles();
@@ -30,7 +33,7 @@ const App = () => {
 				</Toolbar>
 			</AppBar>
 
-			<main className="main_div">
+			<main>
 				<div className={classes.Div} style={{paddingTop: '27vh'}}>
 					<Grid container spacing={4}>
 						<CardComponent 	
@@ -82,15 +85,26 @@ const App = () => {
 					<Typography variant='h2'>
 						Our team - Mickey
 					</Typography>
-					<Typography variant='subtitle1'>
-						Monesh Goyal
-					</Typography>
-					<Typography variant='subtitle1'>
-						Bala Yokesh Mani
-					</Typography>
-					<Typography variant='subtitle1'>
-						Cheng Yang
-					</Typography>
+					<Grid container spacing={4}>
+						<MemberCard 
+							name='Monesh Goyal'
+							github=''
+							linkedin=''
+							image={defaultProfilePicture}
+						/>
+						<MemberCard 
+							name='Bala Yokesh Mani'
+							github='https://github.com/balayokesh'
+							linkedin='https://linkedin.com/in/balayokeshmani'
+							image={BalaYokesh}
+						/>
+						<MemberCard 
+							name='Cheng Yang'
+							github=''
+							linkedin=''
+							image={defaultProfilePicture}
+						/>
+					</Grid>
 				</Container>
 			</main>
 
