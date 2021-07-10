@@ -3,11 +3,15 @@ import React, { useState} from 'react';
 import { Link } from 'react-router-dom';
 
 // Import Material-UI components
-import { AppBar, Toolbar, CssBaseline, Container, Grid, Typography} from '@material-ui/core';
+import { AppBar, Toolbar, CssBaseline, Container, Grid, Typography, Card, CardContent, CardActions, Button } from '@material-ui/core';
 import useStyles from './assets/styles/style';
 
+// Material Icons
+import ArrowDropDownCircleIcon from '@material-ui/icons/ArrowDropDownCircle';
+
 // Import assets
-import logo from './assets/images/logo.png'
+import logo from './assets/images/logo.png';
+import backgroundImage from './assets/images/backgroundImage.jpg';
 
 // Import custom components
 import CardComponent from './Components/CardComponent.jsx';
@@ -27,9 +31,9 @@ const App = () => {
 			</AppBar>
 
 			<main className="main_div">
-				<Container className={classes.Div} style={{paddingTop: '20vh'}}>
+				<div className={classes.Div} style={{paddingTop: '20vh'}}>
 					<Grid container spacing={4}>
-						<CardComponent 
+						<CardComponent 	
 							image='https://media.tenor.com/images/cd00080ba0fd57ad0bce235519c96962/tenor.gif'
 							title='First star on Hollywood walk of fame'
 							description='Mickey mouse is the first cartoon character who received a star on the Hollywood walf of fame'
@@ -44,16 +48,29 @@ const App = () => {
 							title='Mickey and Minnie'
 							description='Mickey and Minnie have never been married in any of their onscreen appearances'
 						/>
-					</Grid>
-				</Container>
+					</Grid>					
+				</div>
 
-				<Container className={classes.Div}>
-					<Typography variant='h2' align='center'>
-						<Link to='/game'>
-							Play game
-						</Link>				
-					</Typography>
-				</Container>
+				<h1 style={{textAlign: 'center'}} onClick={ () => {window.location.href = '#section2'}} id='section2'>
+					<ArrowDropDownCircleIcon style={{fontSize: '2em'}} size='large' />
+				</h1>
+
+				<div className={classes.Div} style={{background: `url(${backgroundImage})`, backgroundSize: 'cover'}}>
+					<Card className={classes.Section2}>
+						<CardContent>
+							<Typography variant='h2' >
+								We implemented a fun game for you.  Give it a try
+							</Typography>
+						</CardContent>
+						<CardActions>
+							<Button variant='contained' color='primary' size='large'>
+								<Link to='/game' style={{textDecoration: 'none', color: '#fff'}}>
+									Play game
+								</Link>				
+							</Button>
+						</CardActions>
+					</Card>
+				</div>
 
 				<Container className={classes.Div}>
 					<Typography variant='h2'>

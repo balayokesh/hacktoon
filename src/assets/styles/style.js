@@ -15,6 +15,7 @@ const useStyles = makeStyles (() => ({
     Div: {
         height: '88vh',
         // border: '2px solid red',
+        padding: '2%',
     },
     Grid: {
         display: 'flex',
@@ -22,7 +23,13 @@ const useStyles = makeStyles (() => ({
     Image: {
         height: '300px',
         backgroundColor: '#fff',
-    }
+    },
+    Section2: {
+        width: '50%',
+        height: '80%',
+        margin: '4%',
+        padding: '3%'
+    },
 }));
 
 export default useStyles;
