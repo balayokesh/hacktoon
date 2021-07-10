@@ -72,11 +72,11 @@ const App = () => {
 					</Card>
 				</div>
 
-				<Container className={classes.Div}>
+				<div className={classes.Div} style={{background: `url(https://www.hdwallpaper.nu/wp-content/uploads/2017/03/mickey_mouse-13-768x480.jpg)`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}}>
 					<Typography variant='h2'>
 						About Mickey Mouse:
 					</Typography>
-				</Container>				
+				</div>				
 
 				<Container className={classes.Div}>
 					<Typography variant='h2'>
