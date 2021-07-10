@@ -100,8 +100,8 @@ const App = () => {
 						/>
 						<MemberCard 
 							name='Cheng Yang'
-							github=''
-							linkedin=''
+							github='https://github.com/ChengYang03'
+							linkedin='https://www.linkedin.com/in/cheng-yang-0470151a8/'
 							image={defaultProfilePicture}
 						/>
 					</Grid>
