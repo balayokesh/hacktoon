@@ -31,15 +31,15 @@ const App = () => {
 					<Container>
 						<Grid container spacing={4}>
 							<CardComponent 
-								image='https://source.unsplash.com/random'
+								image='https://media.tenor.com/images/cd00080ba0fd57ad0bce235519c96962/tenor.gif'
 								title='test title'
 							/>
 							<CardComponent 
-								image='https://source.unsplash.com/random'
+								image='https://media.tenor.com/images/9c3a07f1220085f8fe461f0a161a972f/tenor.gif'
 								title='test title'
 							/>
 							<CardComponent 
-								image='https://source.unsplash.com/random'
+								image='https://media1.tenor.com/images/4390dff2b1976f1dad4da5b5ab2e474f/tenor.gif?itemid=15538485'
 								title='test title'
 							/>
 						</Grid>
