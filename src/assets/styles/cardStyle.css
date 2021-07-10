@@ -1,14 +1,12 @@
-body {
-    background: #d0e0e6;
+/* body {
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
     line-height: 1;
     font-family: "Patrick Hand", sans-serif;
   }
-  
+   */
   p {
     text-align: right;
     font-size: 50px;

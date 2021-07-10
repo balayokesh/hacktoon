@@ -1,5 +1,7 @@
+// Import npm components
 import React, { useEffect, useState } from "react";
 import "./assets/styles/cardStyle.css"
+import { Link } from 'react-router-dom';
 
 const url = "https://pokeres.bastionbot.org/images/pokemon";
 
@@ -37,6 +39,11 @@ const Game = () => {
 
   return (
     <div className="App">
+
+      <Link to='/'>
+        Back to Homepage
+      </Link>
+
       <div>
 					<h1>Rule:</h1>
 					<h1>The objective is to collect the most pairs of cards.</h1>
