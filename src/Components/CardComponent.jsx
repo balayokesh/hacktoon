@@ -1,10 +1,16 @@
 // Import Material-UI components
-import { Card, CardMedia, CardContent, CardActions, Button, Typography } from '@material-ui/core';
+import { Grid, Card, CardMedia, CardContent, CardActions, Button, Typography } from '@material-ui/core';
+
+// Import assets
+import useStyles from '../assets/styles/style';
 
 const CardComponent = (props) => {
+    const classes = useStyles();
     return (
+        <Grid item xs={12} sm={6} md={4}>
         <Card>
             <CardMedia 
+                className={classes.Image}
                 image={props.image}
                 title='Cartoon title'
             />
@@ -19,6 +25,7 @@ const CardComponent = (props) => {
                 </Button>
             </CardActions>
         </Card>
+        </Grid>
     );
 }
 

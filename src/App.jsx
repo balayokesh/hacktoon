@@ -1,7 +1,8 @@
 import React, { useState} from 'react';
 
 // Import Material-UI components
-import { CssBaseline, Container, Card, CardMedia, CardContent, CardActions, Button, Typography, Grid } from '@material-ui/core';
+import { CssBaseline, Container, Grid } from '@material-ui/core';
+import useStyles from './assets/styles/style';
 
 // Import assets
 import logo from './assets/images/logo.png'
@@ -10,6 +11,7 @@ import logo from './assets/images/logo.png'
 import CardComponent from './Components/CardComponent.jsx';
 
 const App = () => {
+	const classes = useStyles();
     return (
         <>
 			<CssBaseline />
@@ -25,28 +27,31 @@ const App = () => {
 
 			<main className="main_div">
 				<div>
+					<Container>
+						<Grid container spacing={4}>
+							<CardComponent 
+								image='https://source.unsplash.com/random'
+								title='test title'
+							/>
+							<CardComponent 
+								image='https://source.unsplash.com/random'
+								title='test title'
+							/>
+							<CardComponent 
+								image='https://source.unsplash.com/random'
+								title='test title'
+							/>
+						</Grid>
+					</Container>
+				</div>
+
+				<div>
 					<h1>Rule:</h1>
 					<h1>The objective is to collect the most pairs of cards.</h1>
 					<h1>When the game starts, Shuffle the cards and lay them on the table, face down, in rows.</h1>
 					<h1>On each turn, a player turns over any two cards (one at a time) and keeps them and gain one point if the cards match</h1>
 					<h1>When a player turns over two cards that do not match, the game will be over.</h1>
 					<h1>The trick is to remember which cards are where.</h1>
-				</div>
-				<div>
-					<Container maxWidth='md'>
-						<Grid container>
-							<Grid item>
-								<CardComponent 
-									image='https://source.unsplash.com/random'
-									title='test title'
-								/>
-								<CardComponent 
-									image='https://source.unsplash.com/random'
-									title='test title'
-								/>
-							</Grid>	
-						</Grid>	
-					</Container>
 				</div>
 			</main>
 
