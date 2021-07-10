@@ -19,6 +19,9 @@ const App = () => {
 
       <main className="main_div">
         <h1>Rule:</h1>
+        <h1>The objective is to collect the most pairs of cards.</h1>
+        <h1>When the game starts, all the cards are turned face down.</h1>
+        <h1>The player then flips over two cards, if they matches, then they gain the points, if not the game is over.</h1>
        
       </main>
 
