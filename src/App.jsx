@@ -31,7 +31,7 @@ const App = () => {
 			</AppBar>
 
 			<main className="main_div">
-				<div className={classes.Div} style={{paddingTop: '20vh'}}>
+				<div className={classes.Div} style={{paddingTop: '27vh'}}>
 					<Grid container spacing={4}>
 						<CardComponent 	
 							image='https://media.tenor.com/images/cd00080ba0fd57ad0bce235519c96962/tenor.gif'
@@ -55,7 +55,7 @@ const App = () => {
 					<ArrowDropDownCircleIcon style={{fontSize: '2em'}} size='large' />
 				</h1>
 
-				<div className={classes.Div} style={{background: `url(${backgroundImage})`, backgroundSize: 'cover'}}>
+				<div className={classes.Div} style={{background: `url(${backgroundImage})`, backgroundSize: 'cover', display: 'flex', justifyContent: 'left'}}>
 					<Card className={classes.Section2}>
 						<CardContent>
 							<Typography variant='h2' >

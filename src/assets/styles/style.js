@@ -26,9 +26,9 @@ const useStyles = makeStyles (() => ({
     },
     Section2: {
         width: '50%',
-        height: '80%',
         margin: '4%',
-        padding: '3%'
+        padding: '3%',
+        alignSelf: 'center'
     },
 }));
 
