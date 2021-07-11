@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mickey-hacktoon/static/css/main.646143a9.chunk.css",
-    "main.js": "/mickey-hacktoon/static/js/main.c6b7cb6b.chunk.js",
-    "main.js.map": "/mickey-hacktoon/static/js/main.c6b7cb6b.chunk.js.map",
+    "main.js": "/mickey-hacktoon/static/js/main.e16e0a36.chunk.js",
+    "main.js.map": "/mickey-hacktoon/static/js/main.e16e0a36.chunk.js.map",
     "runtime-main.js": "/mickey-hacktoon/static/js/runtime-main.970bd6d9.js",
     "runtime-main.js.map": "/mickey-hacktoon/static/js/runtime-main.970bd6d9.js.map",
     "static/js/2.b04077ec.chunk.js": "/mickey-hacktoon/static/js/2.b04077ec.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.970bd6d9.js",
     "static/js/2.b04077ec.chunk.js",
     "static/css/main.646143a9.chunk.css",
-    "static/js/main.c6b7cb6b.chunk.js"
+    "static/js/main.e16e0a36.chunk.js"
   ]
 }
