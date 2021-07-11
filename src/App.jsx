@@ -83,7 +83,7 @@ const App = () => {
 
 				<Container className={classes.Div}>
 					<Typography variant='h2'>
-						Our team - Mickey
+						Our team - MickeyHacks
 					</Typography>
 					<Grid container spacing={4}>
 						<MemberCard 
