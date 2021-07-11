@@ -3,26 +3,14 @@ import React, { useEffect, useState } from "react";
 import { Link } from 'react-router-dom';
 
 // Import Material UI components
-import { Modal, Backdrop, Fade, makeStyles, Button } from '@material-ui/core';
+import { CssBaseline, AppBar, Typography, Toolbar, Modal, Backdrop, Fade, Button } from '@material-ui/core';
 
 // Import Material Icons
 import HomeIcon from '@material-ui/icons/Home';
 
 // Material styles
 import "./assets/styles/cardStyle.css";
-const useStyles = makeStyles((theme) => ({
-	modal: {
-		display: 'flex',
-		alignItems: 'center',
-		justifyContent: 'center',
-	},
-	paper: {
-		backgroundColor: theme.palette.background.paper,
-		border: '2px solid #000',
-		boxShadow: theme.shadows[5],
-		padding: theme.spacing(2, 4, 3),
-	},
-}));
+import useStyles from './assets/styles/style';
 
 const url = "https://pokeres.bastionbot.org/images/pokemon";
 
@@ -67,18 +55,25 @@ const Game = () => {
 		if (openedCard.length === 2) setTimeout(() => setOpenedCard([]), 1000);
 	}, [openedCard]);
 
-	const classes = useState();
+	const classes = useStyles();
 	return (
-
 		<div className="App">
+			<CssBaseline />
+			<AppBar position='relative'>
+				<Toolbar className={classes.NavBar}>
+					<Link to='/' style={{}}>
+						<HomeIcon style={{color: '#fff'}} />
+					</Link>
+					<Typography variant='h3'>	
+						Card game
+					</Typography>
+					<Button variant='contained' color='primary' onClick={handleOpen}>
+						View Rules
+					</Button>
+				</Toolbar>
+			</AppBar>
 
-			<Link to='/'>
-				<HomeIcon />
-			</Link>
-
-			<Button variant='contained' color='primary' onClick={handleOpen}>
-				View Rules
-			</Button>
+			<br />
 
 			<Modal
 				aria-labelledby="transition-modal-title"
