@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/mickey-hacktoon/static/css/main.87924860.chunk.css",
-    "main.js": "/mickey-hacktoon/static/js/main.5b0fc04c.chunk.js",
-    "main.js.map": "/mickey-hacktoon/static/js/main.5b0fc04c.chunk.js.map",
+    "main.js": "/mickey-hacktoon/static/js/main.100390c4.chunk.js",
+    "main.js.map": "/mickey-hacktoon/static/js/main.100390c4.chunk.js.map",
     "runtime-main.js": "/mickey-hacktoon/static/js/runtime-main.970bd6d9.js",
     "runtime-main.js.map": "/mickey-hacktoon/static/js/runtime-main.970bd6d9.js.map",
-    "static/js/2.0ca0aee3.chunk.js": "/mickey-hacktoon/static/js/2.0ca0aee3.chunk.js",
-    "static/js/2.0ca0aee3.chunk.js.map": "/mickey-hacktoon/static/js/2.0ca0aee3.chunk.js.map",
+    "static/js/2.af303a54.chunk.js": "/mickey-hacktoon/static/js/2.af303a54.chunk.js",
+    "static/js/2.af303a54.chunk.js.map": "/mickey-hacktoon/static/js/2.af303a54.chunk.js.map",
     "index.html": "/mickey-hacktoon/index.html",
     "static/css/main.87924860.chunk.css.map": "/mickey-hacktoon/static/css/main.87924860.chunk.css.map",
-    "static/js/2.0ca0aee3.chunk.js.LICENSE.txt": "/mickey-hacktoon/static/js/2.0ca0aee3.chunk.js.LICENSE.txt",
+    "static/js/2.af303a54.chunk.js.LICENSE.txt": "/mickey-hacktoon/static/js/2.af303a54.chunk.js.LICENSE.txt",
     "static/media/backgroundImage.380d5165.jpg": "/mickey-hacktoon/static/media/backgroundImage.380d5165.jpg",
     "static/media/balayokesh.bfa21e03.jpg": "/mickey-hacktoon/static/media/balayokesh.bfa21e03.jpg",
     "static/media/logo.c243e7e3.png": "/mickey-hacktoon/static/media/logo.c243e7e3.png"
   },
   "entrypoints": [
     "static/js/runtime-main.970bd6d9.js",
-    "static/js/2.0ca0aee3.chunk.js",
+    "static/js/2.af303a54.chunk.js",
     "static/css/main.87924860.chunk.css",
-    "static/js/main.5b0fc04c.chunk.js"
+    "static/js/main.100390c4.chunk.js"
   ]
 }
