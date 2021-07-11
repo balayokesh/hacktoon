@@ -37,6 +37,9 @@ const useStyles = makeStyles ((theme) => ({
 		display: 'flex',
 		alignItems: 'center',
 		justifyContent: 'center',
+        margin: '5%',
+        textAlign: 'center',
+        padding: '2%',
 	},
 	paper: {
 		backgroundColor: theme.palette.background.paper,

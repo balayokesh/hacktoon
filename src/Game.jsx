@@ -90,13 +90,16 @@ const Game = () => {
 				<Fade in={open}>
 					<div className={classes.paper}>
 						<h2 id="transition-modal-title">Rules:</h2>
-						<p id="transition-modal-description">
+						<Typography variant='subtitle1' id="transition-modal-description">
 							The objective is to collect the most pairs of cards.
 							On each turn, a player turns over any two cards (one at a time) and keeps them and gain one point if the cards match
 							When a player turns over two cards that do not match, the game will be over.
 							The trick is to remember which cards are where.
 							Click on the Cards
-						</p>
+						</Typography>
+						<Button onClick={handleClose} variant='contained' color='secondary'>
+							Close
+						</Button>
 					</div>
 				</Fade>
 			</Modal>
