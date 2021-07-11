@@ -87,7 +87,7 @@ const App = () => {
 				</div>				
 
 				<Container className={classes.Div}>
-					<Typography variant='h2'>
+					<Typography variant='h2' gutterBottom>
 						Our team - MickeyHacks
 					</Typography>
 					<Grid container spacing={4}>
