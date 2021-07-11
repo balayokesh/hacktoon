@@ -18,9 +18,6 @@ const useStyles = makeStyles ((theme) => ({
         minHeight: '88vh',
         padding: '2%',
     },
-    Grid: {
-        display: 'flex',
-    },
     Image: {
         height: '300px',
         width: '100%',

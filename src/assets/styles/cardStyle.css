@@ -1,12 +1,3 @@
-/* body {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    line-height: 1;
-    font-family: "Patrick Hand", sans-serif;
-  }
-   */
   p {
     text-align: right;
     font-size: 50px;
@@ -19,12 +10,6 @@
   p strong {
     font-size: 14px;
     color: #777;
-  }
-  
-  .cards {
-    display: grid;
-    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
-    gap: 10px;
   }
   
   .pokemon-card {

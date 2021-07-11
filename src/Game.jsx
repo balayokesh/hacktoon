@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from 'react-router-dom';
 
 // Import Material UI components
-import { CssBaseline, AppBar, Typography, Toolbar, Modal, Backdrop, Fade, Button } from '@material-ui/core';
+import { CssBaseline, Container, AppBar, Typography, Grid, Toolbar, Modal, Backdrop, Fade, Button } from '@material-ui/core';
 
 // Import Material Icons
 import HomeIcon from '@material-ui/icons/Home';
@@ -56,6 +56,7 @@ const Game = () => {
 	}, [openedCard]);
 
 	const classes = useStyles();
+
 	return (
 		<div className="App">
 			<CssBaseline />
@@ -104,8 +105,8 @@ const Game = () => {
 				</Fade>
 			</Modal>
 
-
-			<div className="cards">
+			<Container>
+			<Grid container spacing={4} className="cards">
 				{pairOfPokemons.map((pokemon, index) => {
 					//lets flip the card
 
@@ -114,7 +115,7 @@ const Game = () => {
 					if (openedCard.includes(index)) isFlipped = true;
 					if (matched.includes(pokemon.id)) isFlipped = true;
 					return (
-						<div
+						<Grid item xs={12} sm={6} md={4}
 							className={`pokemon-card ${isFlipped ? "flipped" : ""} `}
 							key={index}
 							onClick={() => flipCard(index)}
@@ -129,10 +130,11 @@ const Game = () => {
 								</div>
 								<div className="back"></div>
 							</div>
-						</div>
+						</Grid>
 					);
 				})}
-			</div>
+			</Grid>
+			</Container>
 		</div>
 	);
 }
