@@ -26,11 +26,16 @@ const App = () => {
 			<CssBaseline />
 			<AppBar className={classes.NavBar}>
 				<Toolbar>
-				<img src={logo} className={classes.Logo} alt='mickey logo' />
-				<Typography variant='h3'>
-					Mickey Hacktoon
-				</Typography>
+					<img src={logo} className={classes.Logo} alt='mickey logo' />
 				</Toolbar>
+				<Typography variant='h3'>
+					Mickey
+				</Typography>
+				<Button variant='contained' color='primary' style={{padding: '0 2% 0 2%'}}>
+					<Link to='/game' style={{textDecoration: 'none', color: '#fff'}}>
+						Play Game
+					</Link>
+				</Button>
 			</AppBar>
 
 			<main>

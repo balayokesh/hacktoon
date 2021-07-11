@@ -7,10 +7,12 @@ const useStyles = makeStyles (() => ({
     },
     NavBar: {
         display: 'flex',
-        justifyContent: 'center',
+        flexDirection: 'row',
+        alignContent: 'center',
+        justifyContent: 'space-between',
         backgroundColor: '#090b13',
         padding: '2%',
-        height: '14vh',
+        minHeight: '14vh',
     },
     Div: {
         minHeight: '88vh',
