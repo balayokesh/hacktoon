@@ -44,7 +44,7 @@ const App = () => {
 						<CardComponent 	
 							image='https://media.tenor.com/images/cd00080ba0fd57ad0bce235519c96962/tenor.gif'
 							title='First star on Hollywood walk of fame'
-							description='Mickey mouse is the first cartoon character who received a star on the Hollywood walf of fame'
+							description='Mickey mouse is the first cartoon character who received a star on the Hollywood walk of fame'
 						/>
 						<CardComponent 
 							image='https://media.tenor.com/images/9c3a07f1220085f8fe461f0a161a972f/tenor.gif'
