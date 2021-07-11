@@ -13,8 +13,7 @@ const useStyles = makeStyles (() => ({
         height: '14vh',
     },
     Div: {
-        height: '88vh',
-        // border: '2px solid red',
+        minHeight: '88vh',
         padding: '2%',
     },
     Grid: {
@@ -26,7 +25,8 @@ const useStyles = makeStyles (() => ({
         backgroundColor: '#fff',
     },
     Section2: {
-        width: '50%',
+        minWidth: '50%',
+        maxWidth: '500px',
         margin: '4%',
         padding: '3%',
         alignSelf: 'center'
