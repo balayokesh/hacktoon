@@ -25,7 +25,7 @@ const CardComponent = (props) => {
                         image={props.image}
                     />
                     <CardContent>
-                        <Typography>
+                        <Typography variant='subtitle1'>
                             {props.title}
                         </Typography>
                     </CardContent>
