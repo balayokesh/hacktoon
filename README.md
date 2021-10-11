@@ -26,3 +26,8 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 ## Game page: 
 ![Screenshot (24)](https://user-images.githubusercontent.com/59578892/125206166-91618500-e23a-11eb-8cd0-485dfcfd499b.png)
+
+# Team:
+<a href="https://github.com/balayokesh/mickey-hacktoon/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=balayokesh/mickey-hacktoon" />
+</a>
