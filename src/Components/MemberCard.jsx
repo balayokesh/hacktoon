@@ -14,8 +14,8 @@ const MemberCard = (props) => {
     return (
         <Grid item xs={12} sm={6} md={4}>
             <Card>
-                <CardMedia>
-                    <img src={props.image} className={classes.Image} />
+                <CardMedia className={classes.ProfileImageContainer}>
+                    <img src={props.image} className={classes.ProfileImage} />
                 </CardMedia>
                 <CardContent>
                     {props.name}
