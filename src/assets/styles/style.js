@@ -23,6 +23,13 @@ const useStyles = makeStyles ((theme) => ({
         width: '100%',
         backgroundColor: '#fff',
     },
+    ProfileImageContainer: {
+        height: '50vh',
+        overflow: 'hidden'
+    },
+    ProfileImage: {
+        width: '100%'
+    },
     Section2: {
         minWidth: '50%',
         maxWidth: '500px',
