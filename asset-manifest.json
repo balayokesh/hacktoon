@@ -1,23 +1,16 @@
 {
   "files": {
-    "main.css": "/mickey-hacktoon/static/css/main.646143a9.chunk.css",
-    "main.js": "/mickey-hacktoon/static/js/main.e16e0a36.chunk.js",
-    "main.js.map": "/mickey-hacktoon/static/js/main.e16e0a36.chunk.js.map",
-    "runtime-main.js": "/mickey-hacktoon/static/js/runtime-main.970bd6d9.js",
-    "runtime-main.js.map": "/mickey-hacktoon/static/js/runtime-main.970bd6d9.js.map",
-    "static/js/2.b04077ec.chunk.js": "/mickey-hacktoon/static/js/2.b04077ec.chunk.js",
-    "static/js/2.b04077ec.chunk.js.map": "/mickey-hacktoon/static/js/2.b04077ec.chunk.js.map",
+    "main.css": "/mickey-hacktoon/static/css/main.857d7534.css",
+    "main.js": "/mickey-hacktoon/static/js/main.a786488b.js",
+    "static/media/backgroundImage.jpg": "/mickey-hacktoon/static/media/backgroundImage.380d5165c2cef1c7c29a.jpg",
+    "static/media/balayokesh.jpg": "/mickey-hacktoon/static/media/balayokesh.bfa21e03bf01043f5fa0.jpg",
+    "static/media/logo.png": "/mickey-hacktoon/static/media/logo.c243e7e3e682816f2615.png",
     "index.html": "/mickey-hacktoon/index.html",
-    "static/css/main.646143a9.chunk.css.map": "/mickey-hacktoon/static/css/main.646143a9.chunk.css.map",
-    "static/js/2.b04077ec.chunk.js.LICENSE.txt": "/mickey-hacktoon/static/js/2.b04077ec.chunk.js.LICENSE.txt",
-    "static/media/backgroundImage.380d5165.jpg": "/mickey-hacktoon/static/media/backgroundImage.380d5165.jpg",
-    "static/media/balayokesh.bfa21e03.jpg": "/mickey-hacktoon/static/media/balayokesh.bfa21e03.jpg",
-    "static/media/logo.c243e7e3.png": "/mickey-hacktoon/static/media/logo.c243e7e3.png"
+    "main.857d7534.css.map": "/mickey-hacktoon/static/css/main.857d7534.css.map",
+    "main.a786488b.js.map": "/mickey-hacktoon/static/js/main.a786488b.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.970bd6d9.js",
-    "static/js/2.b04077ec.chunk.js",
-    "static/css/main.646143a9.chunk.css",
-    "static/js/main.e16e0a36.chunk.js"
+    "static/css/main.857d7534.css",
+    "static/js/main.a786488b.js"
   ]
 }
